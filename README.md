@@ -25,6 +25,4 @@ This project aims to create an attractive and informative landing page for a web
 - Customize the content in the HTML and CSS files to match your specific needs.
 - Modify the styles in the `css` folder to match your desired design.
 
-## Contributing
 
-Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
