@@ -16,7 +16,7 @@ This project aims to create an attractive and informative landing page for a web
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/landing-page.git`
+1. Clone the repository: `git clone https://github.com/atakanAslan1/landing-page.git`
 2. Navigate to the project directory: `cd landing-page`
 3. Open the index.html file in your preferred web browser.
 
