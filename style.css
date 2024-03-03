@@ -1,0 +1,205 @@
+:root {
+    --black-color: rgb(12,14,18);
+    --white-color: rgb(251,251,251);
+    --hoverblack-color: rgb(218, 221, 230);
+    --red-color: 	#FA8072;
+    --red-hover-color-: 	#f46657;
+   }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: var(--black-color);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+
+
+.navbar {
+    display: flex;
+}
+
+.logo {
+    width: 3rem;
+    height:3rem;
+    margin-left: 2.5rem;
+    margin-right: 2rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+}
+
+ul > li {
+    padding: 1rem;
+}
+
+a {
+    color: var(--white-color);
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    transition:  .4s
+}
+
+a:hover {
+    
+          /** TEXT GRADIENT */ color: #7e05ff; background-image: -webkit-radial-gradient(circle, #7e05ff 0%, #b087ad 100%, #a4649d 100%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+          
+        
+    
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 5rem;
+}
+
+
+.search {
+    padding: .5rem;
+    border-radius: .4rem;
+    border: none;
+    color: var(--black-color);
+    background-color: var(--white-color);
+    font-size: 20px;
+    margin-left: .5rem;
+    width: 20rem;
+    height: 2rem;
+}
+
+
+button {
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+    border-radius: .4rem;
+    border: none;
+    color: var(--white-color);
+    background-color: #802bd9;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: .5rem;
+    transition: 400ms;
+}
+
+button:hover {
+    background-color: #7a00fd;
+
+}
+
+.main-section {
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+h1 {
+    color: var(--white-color);
+    font-size: 9rem;
+    display: grid;
+    text-align: center;
+   
+}
+h3 {
+    text-align: center;
+    display: flex;
+    font-size: 4rem;
+    margin-top: 3rem;
+    color: #802bd9;
+    background-image: -webkit-linear-gradient(45deg, #802bd9 44%, #13e182 73%, #a4649d 57%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    
+
+   
+
+    
+}
+
+.code {
+    grid-area: 1/1;
+    color: #802bd9;
+    background-image: -webkit-radial-gradient(circle, #802bd9 18%, #f7b611 87%, #a4649d 0%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+
+    
+
+}
+
+.with {
+    grid-area: 1/2;
+    color: #802bd9;
+    background-image: -webkit-linear-gradient(45deg, #802bd9 44%, #000000 17%, #e162d2 0%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.me {
+    grid-area: 1/3;
+    color: #f6c75a;
+    background-image: -webkit-linear-gradient(45deg, #802bd9 31%, #ff11ff 100%, #a4649d 0%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.code-img {
+    width: 30rem;
+    border-radius: .9rem ;
+    align-self: flex-end;
+    margin: 2rem 2rem 2rem 1rem ;
+
+}
+
+
+.main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.join {
+    color: var(--white-color);
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 4rem;
+
+          /** TEXT GRADIENT */ color: #802bd9; background-image: -webkit-linear-gradient(0deg, #802bd9 52%, #13e182 100%, #a4649d 50%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+}
+
+.info {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--white-color);
+    margin: rem;
+}
+
+
+
+
