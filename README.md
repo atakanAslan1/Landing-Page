@@ -23,7 +23,6 @@ This project aims to create an attractive and informative landing page for a web
 ## Usage
 
 - Customize the content in the HTML and CSS files to match your specific needs.
-- Replace the images in the `img` folder with your own visuals.
 - Modify the styles in the `css` folder to match your desired design.
 
 ## Contributing
